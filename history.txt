@@ -1,0 +1,500 @@
+   55  cd ..
+   56  cd ..
+   57  cd..
+   58  cd ..
+   59  cd ..
+   60  mkdir this-will-be-another-repo
+   61  cd this-will-be-another-repo/
+   62  git init
+   63  touch README.md
+   64  git add
+   65  git add .
+   66  g
+   67  git add .
+   68  git commit -m "Initial commit"
+   69  cd Desktop/
+   70  cd git-basic-exercises/
+   71  git log
+   72  touch ignore-me.db
+   73  git status
+   74  nano .gitignore
+   75  git status
+   76  mkdir large-directory-that-should-be-local-only
+   77  cd large-directory-that-should-be-local-only/
+   78  touch README.md
+   79  git status
+   80  ls
+   81  nano README.md 
+   82  cd ..
+   83  git status
+   84  nano .gitignore
+   85  git status
+   86  git init
+   87  touch gitignore.md
+   88  nano gitignore.md 
+   89  touch README.md
+   90  nano README.md 
+   91  git add .
+   92  git commit -m "Initial Commit"
+   93  git remote add origin https://github.com/v-for-vend3tta/task-1.git
+   94  git push -u origin master
+   95  git status
+   96  git push -u origin master
+   97  git remote add origin https://github.com/v-for-vend3tta/task-1.git
+   98  git push -u origin master
+   99  git log
+  100  git remote add origin https://github.com/v-for-vend3tta/task-1.git
+  101  git push -u origin master
+  102  git status
+  103  cd ..
+  104  cd git-basic-exercises/
+  105  git status
+  106  git add .
+  107  git log
+  108  git remote add origin https://github.com/V-FOR-VEND3TTA/git-basic-exercises.git
+  109  git push -u origin master
+  110  cd git-basic-exercises/
+  111  git add .
+  112  git commit -m "added README doc"
+  113  git remote add origin https://github.com/V-FOR-VEND3TTA/observe.git
+  114  git push -u origin master
+  115  git push -u origin master
+  116  git push -u origin master
+  117  git remote add origin https://github.com/V-FOR-VEND3TTA/observe.git
+  118  git push -u origin master
+  119  echo "#gitting-it-right" >> README.md
+  120  git init
+  121  mkdir gitting-it-right
+  122  cd gitting-it-right/
+  123  git init
+  124  git add README.md
+  125  git add README.md
+  126  touch README.md
+  127  git add .
+  128  git commit -m "added README file"
+  129  git remote add origin https://github.com/V-FOR-VEND3TTA/gitting-it-right.git
+  130  git push -u origin master
+  131  mkdir git-basic-exercises
+  132  cd git-basic-exercises/
+  133  ls -a
+  134  git init
+  135  ls -a
+  136  touch README.md
+  137  ls -a
+  138  git log
+  139  git add .
+  140  git commit -m "initial commit"
+  141  git log
+  142  q
+  143  q
+  144  nano README.md
+  145  cat README.md
+  146  nano README.md
+  147  cat README.md
+  148  git status
+  149  git commit -m "second commit"
+  150  nano README.md
+  151  git commit -m "third commit"
+  152  git log
+  153  nano README.md
+  154  git add .
+  155  git commit -m "second commit"
+  156  nano README.md
+  157  git add .
+  158  git commit -m "third commit"
+  159  git log
+  160  q
+  161  git checkout
+  162  git checkout b741ede51f4e4aba0a18eb3dd87f22aca8b97453
+  163  cat README.md
+  164  git checkout main
+  165  git checkout master
+  166  cat README.md
+  167  git branch
+  168  git branch milkshake-flavors
+  169  git branch
+  170  git checkout milkshake-flavors
+  171  nano milkshakes.md
+  172  cat milkshakes.md
+  173  git status
+  174  git add .
+  175  git commit -m "added initial flavors"
+  176  git log
+  177  git checkout main
+  178  git checkout master
+  179  git branch history
+  180  git checkout history
+  181  git log
+  182  history > history.txt
+  183  git status
+  184  git add .
+  185  git commit -m "added history"
+  186  git log
+  187  git checkout milkshake-flavors 
+  188  git log
+  189  ls
+  190  nano milkshakes.md 
+  191  git add .
+  192  git commit -m "Random readme changes"
+  193  checkout history
+  194  git checkout history
+  195  cat README.md 
+  196  rm README.md 
+  197  echo "booya" > README.md
+  198  cat README.md
+  199  git add .
+  200  git commit -m "rewrote README"
+  201  git checkout master
+  202  ls
+  203  git log
+  204  git checkout milkshake-flavors 
+  205  ls
+  206  git log
+  207  git checkout history
+  208  ls
+  209  git log
+  210  git checkout master
+  211  git merge milkshake-flavors 
+  212  ls
+  213  git log
+  214  git merge history
+  215  ls
+  216  git log
+  217  git checkout history
+  218  git log
+  219  git checkout milkshake-flavors 
+  220  git log
+  221  git remote add origin https://github.com/V-FOR-VEND3TTA/git-basic-exercises.git
+  222  git branch -m main
+  223  git push -u origin main 
+  224  git log
+  225  q
+  226  git checkout master
+  227  git remote add origin https://github.com/V-FOR-VEND3TTA/git-basic-exercises.git
+  228  git branch -M main
+  229  git push -u origin main
+  230  git checkout history 
+  231  git push
+  232  git push -u origin history
+  233  git checkout milkshake-flavors
+  234  ls 
+  235  ls
+  236  git log
+  237  git checkout master
+  238  git checkout master
+  239  git checkout main
+  240  ls
+  241  git status
+  242  cd
+  243  cd Desktop/
+  244  cd git-basic-exercises/
+  245  git log
+  246  git status
+  247  cd
+  248  cd Desktop/
+  249  git clone https://github.com/Umuzi-org/a-repo-to-clone.git
+  250  cd a-repo-to-clone/
+  251  git branch 
+  252  git log
+  253  git branch -a
+  254  git checkout projects/git-basic-exercises
+  255  git checkout a-branch-with-
+  256  git checkout a-branch-with-a-few-commits 
+  257  ls
+  258  git checkout a-branch-with-small-changes 
+  259  ls
+  260  git checkout HEAD
+  261  ls
+  262  git remote -v
+  263  cd Desktop/
+  264  cd git-basic-exercises/
+  265  cd ..
+  266  git clone https://github.com/Umuzi-org/a-repo-to-clone.git
+  267  git clone https://github.com/Umuzi-org/a-repo-to-clone.git
+  268  cd a-repo-to-clone/
+  269  git branch
+  270  git log
+  271  git log
+  272  git log
+  273  git branch
+  274  git log
+  275  git branch -a
+  276  cd desktop.ini 
+  277  cd desktop.ini q
+  278  Shakes@DESKTOP-K236VRK MINGW64 ~
+  279  $ cd Desktop/
+  280  Shakes@DESKTOP-K236VRK MINGW64 ~/Desktop
+  281  $ cd git-basic-exercises/
+  282  Shakes@DESKTOP-K236VRK MINGW64 ~/Desktop/git-basic-exercises (main)
+  283  $ cd ..
+  284  Shakes@DESKTOP-K236VRK MINGW64 ~/Desktop
+  285  $ git clone https://github.com/Umuzi-org/a-repo-to-clone.git
+  286  git clone https://github.com/Umuzi-org/a-repo-to-clone.git
+  287  cd a-repo-to-clone/
+  288  git branch
+  289  git log
+  290  git branch -a
+  291  git checkout main
+  292  git checkout HEAD
+  293  git branch project/git-basic-exercises
+  294  git checkout project/git-basic-exercises 
+  295  git remote -v
+  296  git log
+  297  cd..
+  298  cd ..
+  299  cd git-basic-exercises/
+  300  git log
+  301  cd ..
+  302  mkdir this-will-be-another-repo
+  303  cd this-will-be-another-repo/
+  304  git init
+  305  touch README.md
+  306  git add .
+  307  git commit -m "Initial commit"
+  308  cd ..
+  309  cd git-basic-exercises/
+  310  git log
+  311  touch ignore-me.db
+  312  git status
+  313  nano .gitignore
+  314  cd large-directory-that-should-be-local-only
+  315  mkdir large-directory-that-should-be-local-only
+  316  cd large-directory-that-should-be-local-only
+  317  touch README.md
+  318  nano README.md 
+  319  CD ..
+  320  cd ..
+  321  git status
+  322  nano .gitignore
+  323  nano .gitignore
+  324  git add .gitignore
+  325  git commit -m "added .gitignore"
+  326  git push
+  327  git init
+  328  git status
+  329  touch README.md
+  330  nano README.md
+  331  git status
+  332  git add .
+  333  git commit -m "Initial commit"
+  334  cd ..
+  335  cd ..
+  336  git branch -M main
+  337  git branch -M master
+  338  git remote add origin https://github.com/V-FOR-VEND3TTA/level-zero-coding-challenges.git
+  339  git branch -M master
+  340  git push -u origin master
+  341  git add .
+  342  git status
+  343  git restore task 11/taskeleven.js
+  344  git restore task11/taskeleven.js
+  345  ls
+  346  cd task 11/
+  347  cd 'task 11'
+  348  git restore
+  349  git restore taskeleven.js
+  350  git add .
+  351  git status
+  352  git add .
+  353  git restore taskeleven.js
+  354  git status
+  355  cd Desktop
+  356  mkdir bootcamp-writing-assignment
+  357  cd bootcamp-writing-assignment/
+  358  touch MYHISTORY.md
+  359  nano MYHISTORY.md 
+  360  git status
+  361  git init
+  362  git status
+  363  git add .
+  364  git add .
+  365  git commit -m "added MYHISTORY"
+  366  git git remote add origin https://github.com/V-FOR-VEND3TTA/bootcamp-writing-assignment.git
+  367  git remote add origin https://github.com/V-FOR-VEND3TTA/bootcamp-writing-assignment.git
+  368  git branch -M master
+  369  git push -u origin main
+  370  git push -u origin master
+  371  touch WhyIWantToBeACoder.md
+  372  nano WhyIWantToBeACoder.md 
+  373  nano WhyIWantToBeACoder.md 
+  374  git add .
+  375  git status
+  376  git remote add origin https://github.com/V-FOR-VEND3TTA/bootcamp-writing-assignment.git
+  377  git commit -m "added WhyIWantToBeACoder"
+  378  git status
+  379  git push
+  380  touch MyFreeTime.md
+  381  nano MyFreeTime.md 
+  382  git add .
+  383  git commit "added MyFreeTime"
+  384  nano MyFreeTime.md 
+  385  git add .
+  386  git commit -m "added MyFreeTime"
+  387  git push
+  388  touch Experience
+  389  touch Experience.md
+  390  nano Experience.md 
+  391  git add .
+  392  git commit -m "added Experience"
+  393  git push
+  394  touch SuccessAsACoder
+  395  touch SuccessAsACoder.md
+  396  nano SuccessAsACoder.md
+  397  git add .
+  398  git commit -m "added my reasons for success"
+  399  git push
+  400  git push
+  401  touch Challenges.md
+  402  nano Challenges
+  403  git add .
+  404  git commit -m "added possible challenges"
+  405  git push
+  406  touch ROUTINE.md
+  407  nano ROUTINE.md 
+  408  git add .
+  409  git commit -m "added how my routine could look like"
+  410  touch MYFUTURE.md
+  411  nano MYFUTURE.md 
+  412  git add .
+  413  git commit -m "added how I imagine my future would be like"
+  414  git push
+  415  git remote https://github.com/Umuzi-org/George-Hlongwane-429-bootcamp-writing-assignment-
+  416  git remote add origin https://github.com/Umuzi-org/George-Hlongwane-429-bootcamp-writing-assignment-
+  417  git push -u origin master
+  418  git clone https://github.com/Umuzi-org/George-Hlongwane-429-bootcamp-writing-assignment-.git
+  419  git add .
+  420  ls
+  421  cat Challenges.md 
+  422  echo "# Pricing-model-2.0" >> README.md
+  423  git init
+  424  git add README.md
+  425  git commit -m "Initial commit"
+  426  git branch -M main
+  427  git remote add origin https://github.com/V-FOR-VEND3TTA/Pricing-model-2.0.git
+  428  git push -u origin main
+  429  git init
+  430  git remote add origin https://github.com/V-FOR-VEND3TTA/maps-automata.git
+  431  git branch -M main
+  432  git push -u origin main
+  433  git add .
+  434  git remote add origin https://github.com/V-FOR-VEND3TTA/maps-automata.git
+  435  git branch -M main
+  436  git add .
+  437  git add README.md
+  438  git add README.md
+  439  exit()
+  440  git add .
+  441  git add README.md
+  442  git push -u origin main
+  443  #!/bin/bash
+  444  # Licensed to the Apache Software Foundation (ASF) under one or more
+  445  # contributor license agreements.  See the NOTICE file distributed with
+  446  # this work for additional information regarding copyright ownership.
+  447  # The ASF licenses this file to You under the Apache License, Version 2.0
+  448  # (the "License"); you may not use this file except in compliance with
+  449  # the License.  You may obtain a copy of the License at
+  450  #
+  451  #    http://www.apache.org/licenses/LICENSE-2.0
+  452  #
+  453  # Unless required by applicable law or agreed to in writing, software
+  454  # distributed under the License is distributed on an "AS IS" BASIS,
+  455  # WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  456  # See the License for the specific language governing permissions and
+  457  # limitations under the License.
+  458  if [ $# -lt 1 ]; then 	echo "USAGE: $0 [-daemon] zookeeper.properties"; 	exit 1; fi
+  459  base_dir=$(dirname $0)
+  460  if [ "x$KAFKA_LOG4J_OPTS" = "x" ]; then     export KAFKA_LOG4J_OPTS="-Dlog4j.configuration=file:$base_dir/../config/log4j.properties"; fi
+  461  if [ "x$KAFKA_HEAP_OPTS" = "x" ]; then     export KAFKA_HEAP_OPTS="-Xmx512M -Xms512M"; fi
+  462  EXTRA_ARGS=${EXTRA_ARGS-'-name zookeeper -loggc'}
+  463  COMMAND=$1
+  464  case $COMMAND in   -daemon)      EXTRA_ARGS="-daemon "$EXTRA_ARGS;      shift;      ;;  *)      ;; esac
+  465  exec $base_dir/kafka-run-class.sh $EXTRA_ARGS org.apache.zookeeper.server.quorum.QuorumPeerMain "$@"
+  466  #!/bin/bash
+  467  # Licensed to the Apache Software Foundation (ASF) under one or more
+  468  # contributor license agreements.  See the NOTICE file distributed with
+  469  # this work for additional information regarding copyright ownership.
+  470  # The ASF licenses this file to You under the Apache License, Version 2.0
+  471  # (the "License"); you may not use this file except in compliance with
+  472  # the License.  You may obtain a copy of the License at
+  473  #
+  474  #    http://www.apache.org/licenses/LICENSE-2.0
+  475  #
+  476  # Unless required by applicable law or agreed to in writing, software
+  477  # distributed under the License is distributed on an "AS IS" BASIS,
+  478  # WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  479  # See the License for the specific language governing permissions and
+  480  # limitations under the License.
+  481  if [ $# -lt 1 ]; then 	echo "USAGE: $0 [-daemon] server.properties [--override property=value]*"; 	exit 1; fi
+  482  base_dir=$(dirname $0)
+  483  if [ "x$KAFKA_LOG4J_OPTS" = "x" ]; then     export KAFKA_LOG4J_OPTS="-Dlog4j.configuration=file:$base_dir/../config/log4j.properties"; fi
+  484  if [ "x$KAFKA_HEAP_OPTS" = "x" ]; then     export KAFKA_HEAP_OPTS="-Xmx1G -Xms1G"; fi
+  485  EXTRA_ARGS=${EXTRA_ARGS-'-name kafkaServer -loggc'}
+  486  COMMAND=$1
+  487  case $COMMAND in   -daemon)     EXTRA_ARGS="-daemon "$EXTRA_ARGS;     shift;     ;;   *)     ;; esac
+  488  exec $base_dir/kafka-run-class.sh $EXTRA_ARGS kafka.Kafka "$@"
+  489  git remgit remote add origin https://github.com/V-FOR-VEND3TTA/cautious-journey.git
+  490  git branch -M main
+  491  git remote add origin https://github.com/V-FOR-VEND3TTA/cautious-journey.git
+  492  git init
+  493  git remote add origin https://github.com/V-FOR-VEND3TTA/cautious-journey.git
+  494  git branch -M main
+  495  git add .
+  496  git branch -M master
+  497  git commit -m "first commit"
+  498  git branch -M main
+  499  git remote add origin https://github.com/V-FOR-VEND3TTA/cautious-journey.git
+  500  git push -u origin main
+  501  git init
+  502  dir
+  503  git status
+  504  touch README.md
+  505  git status
+  506  git log
+  507  git add README.md
+  508  git status
+  509  git rm --cached README.md
+  510  git status
+  511  git add README.md 
+  512  git status
+  513  git commit -m "initial commit"
+  514  git log
+  515  q
+  516  nano README.md
+  517  cat README.md 
+  518  git status
+  519  git add README.md 
+  520  git commit "second commit"
+  521  git commit -m "second commit"
+  522  nano README.md
+  523  cat README.md 
+  524  git add .
+  525  git commit -m "third commit"
+  526  git log
+  527  q
+  528  git checkout c73674663ff7ce084b76a42de68cd7dcae62c35b
+  529  cat README.md 
+  530  git checkout main
+  531  git checkout master
+  532  cat README.md 
+  533  git branch
+  534  git branch milkshake-flavours
+  535  git branch
+  536  git branch
+  537  git checkout milkshake-flavours 
+  538  git branch
+  539  nano milkshakes.md
+  540  cat milkshakes.md 
+  541  git status
+  542  git add .
+  543  git commit -m "added inital flavours"
+  544  git log
+  545  git branch
+  546  git checkout master
+  547  git branch
+  548  git status
+  549  git log
+  550  git branch history
+  551  git checkout history 
+  552  git log
+  553  git branch
+  554  history > history.txt
